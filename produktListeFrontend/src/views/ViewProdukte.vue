@@ -2,10 +2,18 @@
     <main>
         <Navbar />
         <div class="container">
-        <div class="rows">
-            <div class="col-md-12">
+            <div class="rows">
+                <div class="col-md-12">
                 <h1 class="text-center">View Produkte</h1>
-                <a href="/add" class="btn btn-primary">Füge Produkte hinzu</a>
+                </div>
+            </div>
+        <div class="row justify-content-end">
+            <div class="col-md-5">
+                <a href="/add" class="btn btn-primary" style="margin-left: 12px;">Füge Produkte hinzu</a>
+            </div>
+        </div>
+                <div class="rows">
+                    <div class="col-md-12">
                 <table class="table table-striped">
                     <thead>
                         <tr>
