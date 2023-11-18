@@ -21,7 +21,7 @@
             <div class="row">
             <div class="col-md-12 form-group mb-3">
                 <label for ="preis" class="form-label">Preis</label>
-                <input type="number" name="preis" id="preis" class="form-control" placeholder="Preis" required v-model="produkt.preis">
+                <input type="text" name="preis" id="preis" class="form-control" placeholder="Preis" required v-model="produkt.preis" pattern="[0-9]+(\.[0-9]+)?">
             </div>
             </div>
             <div class="row"> 

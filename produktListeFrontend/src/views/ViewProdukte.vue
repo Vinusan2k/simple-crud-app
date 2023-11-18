@@ -29,7 +29,7 @@
                         <th scope="row">{{ produkt.id }}</th>
                         <td>{{ produkt.name }}</td>
                         <td>{{ produkt.anzahl }}</td>
-                        <td>{{ produkt.preis }}</td>
+                        <td>{{ produkt.preis }}€</td>
                         <td>
                             <a class ="btn btn-primary" :href="`/edit/${produkt.id}`">Ändere</a>
                             <button class="btn btn-danger mx-2" @click="deleteProdukt(produkt.id)">Löschen</button>
